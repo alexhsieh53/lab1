@@ -1,52 +1,16 @@
-Script started on 2015年03月10日 (週二) 17時41分47秒
+Script started on 2015年03月12日 (週四) 18時06分41秒
 ]0;H34011241@2015cpp: ~H34011241@2015cpp:~$ whoami;pwd
 H34011241
 /home/H34011241
-]0;H34011241@2015cpp: ~H34011241@2015cpp:~$ git config-1
-git: 'config-1' is not a git command. See 'git --help'.
-]0;H34011241@2015cpp: ~H34011241@2015cpp:~$ whoan[Kmi;[K[K[K[K[K[K[Kgit config --global.name ""h"[1P"H"3"4"0"1"1"2"4"1"[C
-error: unknown option `global.name'
-usage: git config [options]
+]0;H34011241@2015cpp: ~H34011241@2015cpp:~$ git config -l
+user.name=alexhsieh53
+user.email=H34011241@mail.edu.tw
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+]0;H34011241@2015cpp: ~H34011241@2015cpp:~$ git clone https://github.com/alexhsieh53/lab1.git
+fatal: destination path 'lab1' already exists and is not an empty directory.
+]0;H34011241@2015cpp: ~H34011241@2015cpp:~$ exit
 
-Config file location
-    --global              use global config file
-    --system              use system config file
-    --local               use repository config file
-    -f, --file <file>     use given config file
-
-Action
-    --get                 get value: name [value-regex]
-    --get-all             get all values: key [value-regex]
-    --get-regexp          get values for regexp: name-regex [value-regex]
-    --replace-all         replace all matching variables: name value [value_regex]
-    --add                 adds a new variable: name value
-    --unset               removes a variable: name [value-regex]
-    --unset-all           removes all matches: name [value-regex]
-    --rename-section      rename section: old-name new-name
-    --remove-section      remove a section: name
-    -l, --list            list all
-    -e, --edit            opens an editor
-    --get-color <slot>    find the color configured: [default]
-    --get-colorbool <slot>
-                          find the color setting: [stdout-is-tty]
-
-Type
-    --bool                value is "true" or "false"
-    --int                 value is decimal number
-    --bool-or-int         value is --bool or --int
-    --path                value is a path (file or directory name)
-
-Other
-    -z, --null            terminate values with NUL byte
-
-]0;H34011241@2015cpp: ~H34011241@2015cpp:~$ git congif[K[K[Kfig -l
-]0;H34011241@2015cpp: ~H34011241@2015cpp:~$ git clone https://github.com/<h[KH34011241[K[K[K[K[K[K[K[K[KALE[K[K[Kalexhsieh53>/lab.git
-bash: alexhsieh53: No such file or directory
-]0;H34011241@2015cpp: ~H34011241@2015cpp:~$ git clone https://github.com/<>a>l>e>x>h>s>i>e>h>5>3>[C/lab1.git
-bash: alexhsieh53: No such file or directory
-]0;H34011241@2015cpp: ~H34011241@2015cpp:~$ git cfloned[K[K[K[K[K[Klone https??[K[K//[C://[C[Cgithub.com/alexhsieh53/gith[K[K[K[Klab1.git
-Cloning into 'lab1'...
-warning: You appear to have cloned an empty repository.
-]0;H34011241@2015cpp: ~H34011241@2015cpp:~$ exit
-
-Script done on 2015年03月10日 (週二) 17時48分49秒
+Script done on 2015年03月12日 (週四) 18時08分11秒
